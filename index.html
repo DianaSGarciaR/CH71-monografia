@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aves</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--* ====== INICIO - Titulo: uso de navbar(Boostrap) ====== -->
+    <div>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid justify-content-center">
+                <h1 class="h1format">AVES</h1>
+            </div>
+        </nav>
+    </div>
+    <!--* ==== END - Titulo === -->
+
+    <!--* ===== INICIO - Grid ===== -->
+    <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <!--* Primera fila -->
+        <!--? Quetzal-->
+        <div class="row">
+            <div class="col-md-8 rowColor">
+                <!--* Card -->
+                <div class="card">
+                    <img src="assets/quetzales.jpg" class="card-img-top">
+                    <div class="card-body">
+                        Quetzal
+                        <button type="button" class="btn btn-warning" data-bs-target="#Quetzal"
+                            data-bs-toggle="modal">Informacion</button>
+                    </div>
+                </div>
+            </div>
+            <!--? azulejo-->
+            <div class="col-6 col-md-4 rowColor">
+                <!--* Card -->
+                <div class="card">
+                    <img src="assets/azulejo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        Azulejo (Tangara Azuleja)
+                        <button type="button" class="btn btn-warning" data-bs-target="#Azulejo"
+                            data-bs-toggle="modal">Informacion</button>
+                    </div>
+                </div>
+                <!--* Fin - Card -->
+            </div>
+        </div>
+
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <!--* Segnda fila -->
+        <div class="row">
+            <!--? coquetaCrestirrufa-->
+            <div class="col-6 col-md-4 rowColor">
+                <!--* Card -->
+                <div class="card">
+                    <img src=" assets/coquetaCrestirrufa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        Coqueta crestirrufa
+                        <button type="button" class="btn btn-warning" data-bs-target="#CoquetaCrestirrufa"
+                            data-bs-toggle="modal">Informacion</button>
+                    </div>
+                </div>
+                <!--* Fin - Card -->
+            </div>
+            <!--? Colibri -->
+            <div class="col-6 col-md-4 rowColor">
+                <!--* Card -->
+                <div class="card">
+                    <img src="assets/colibri.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        Colibri
+                        <button type="button" class="btn btn-warning" data-bs-target="#Colibri"
+                            data-bs-toggle="modal">Informacion</button>
+                    </div>
+                </div>
+                <!--* Fin - Card -->
+            </div>
+            <!--? Tucan -->
+            <div class="col-6 col-md-4 rowColor">
+                <!--* Card -->
+                <div class="card">
+                    <img src="assets/Tucan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        Tucan
+                        <button type="button" class="btn btn-warning" data-bs-target="#Tucan"
+                            data-bs-toggle="modal">Informacion</button>
+                    </div>
+                </div>
+                <!--* Fin - Card -->
+            </div>
+        </div>
+
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <!--* Tercera fila -->
+        <div class="row">
+            <!--? Halcon -->
+            <div class="col-6 rowColor">
+                <!--* Card -->
+                <div class="card">
+                    <img src="assets/Halcon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        Halcon
+                        <button type="button" class="btn btn-warning" data-bs-target="#Halcon"
+                            data-bs-toggle="modal">Informacion</button>
+                    </div>
+                </div>
+                <!--* Fin - Card -->
+            </div>
+            <div class="col-6 rowColor">
+                <!--* Card -->
+                <!--? canario -->
+                <div class="card ">
+                    <img src="assets/canario.jpg" class="card-img-top ">
+                    <div class="card-body">
+                        Canario
+                        <button type="button" class="btn btn-warning" data-bs-target="#Canario"
+                            data-bs-toggle="modal">Informacion</button>
+                    </div>
+                </div>
+                <!--* Fin - Card -->
+            </div>
+        </div>
+    </div>
+    <!--* ======= END - Grid ====== -->
+
+    <!--* INICIO - Modales-->
+    <div class="modal" tabindex="-1" id="Quetzal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quetzal</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Lugar:</strong>
+                        Bosques de niebla y zonas montañosas húmedas de Centroamérica y el sur de México (Guatemala,
+                        Costa Rica, Honduras).
+                        <br>
+                        <strong>Comida:</strong>
+                        Principalmente frutas (es un gran amante de los aguacates silvestres), aunque ocasionalmente
+                        come pequeños insectos, ranas y lagartijas.
+                        <br>
+                        <strong>Rol en la naturaleza:</strong>Al tragarse las frutas enteras y desechar las semillas
+                        grandes en diferentes zonas, ayuda activamente a la regeneración y crecimiento de los árboles
+                        del bosque tropical
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="Azulejo">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Azulejo (Tangara Azuleja)</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Lugar:</strong>
+                        Bosques abiertos, zonas agrícolas, áreas urbanas, jardines y parques desde México hasta el norte
+                        de Sudamérica.
+                        <br>
+                        <strong>Comida:</strong>
+                        se alimenta de una gran variedad de frutas tropicales (como plátanos y bayas),
+                        néctar e insectos.
+                        <br>
+                        <strong>Rol en la naturaleza:</strong>
+                        Polinizador secundario y dispersor. Ayuda a esparcir semillas de plantas arbustivas en zonas
+                        intervenidas por el humano y colabora en el control de poblaciones de pequeños insectos en
+                        jardines y cultivos.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="CoquetaCrestirrufa">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Coqueta Crestirrufa</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Lugar:</strong>
+                        Bordes de selvas húmedas, matorrales y claros de caminos en las regiones andinas y tropicales de
+                        América Central y del Sur
+                        <br>
+                        <strong>Comida:</strong>
+                        Néctar de flores pequeñas de arbustos bajos y diminutos insectos voladores que atrapa en el
+                        aire.
+                        <br>
+                        <strong>Rol en la naturaleza:</strong>
+                        Polinizador especializado. Al ser una especie de colibrí diminuto, transporta el polen de flor
+                        en flor mientras se alimenta, asegurando la reproducción de múltiples plantas nativas del
+                        sotobosque.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="Colibri">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Colibrí</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Lugar:</strong>
+                        Exclusivo del continente americano, adaptado a casi cualquier entorno: desde zonas desérticas y
+                        jardines urbanos hasta bosques tropicales densos y parajes fríos en la cordillera de los Andes.
+                        <br>
+                        <strong>Comida:</strong>
+                        : Néctar de flores (su principal fuente de energía) e insectos o arañas pequeñas para obtener
+                        proteínas.
+                        <br>
+                        <strong>Rol en la naturaleza:</strong>
+                        Polinizador fundamental. Son de los agentes polinizadores más importantes del reino animal en
+                        América. Muchas plantas han evolucionado de forma exclusiva para que solo los colibríes puedan
+                        polinizarlas debido a la forma de sus picos.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="Tucan">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tucán</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Lugar:</strong>
+                        Selvas tropicales de tierras bajas, bosques húmedos y densos de Centroamérica y Sudamérica
+                        (especialmente la cuenca del Amazonas).
+                        <br>
+                        <strong>Comida:</strong>
+                        Principalmente frutas, pero es un consumidor oportunista que también come huevos de otras aves,
+                        lagartijas, insectos y pichones.
+                        <br>
+                        <strong>Rol en la naturaleza:</strong>
+                        Arquitecto y reforestador forestal. Su gran pico le permite alcanzar frutas que otras aves no
+                        pueden. Al defecar o regurgitar las semillas a largas distancias, distribuye especies de árboles
+                        grandes por toda la selva densa.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="Halcon">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tucán</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Lugar:</strong>
+                        Todo el mundo (excepto la Antártida). Habita en espacios abiertos, sabanas, acantilados y, en
+                        las últimas décadas, se ha adaptado masivamente a los rascacielos de las grandes ciudades.
+                        <br>
+                        <strong>Comida:</strong>
+                        Estrictamente carnívoro. Caza en pleno vuelo a otras aves más pequeñas (palomas, zorzales),
+                        roedores, reptiles y murciélagos.
+                        <br>
+                        <strong>Rol en la naturaleza:</strong>
+                        Depredador tope y regulador sanitario. Controla las poblaciones de roedores y aves pequeñas,
+                        evitando plagas. Al cazar a menudo a los ejemplares más débiles o enfermos, mantiene la salud
+                        genética de las especies que le sirven de presa.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="Canario">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Canario</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Lugar:</strong>
+                        Originario en estado salvaje de las Islas Canarias, Azores y Madeira (África/Europa).
+                        <br>
+                        <strong>Comida:</strong>
+                        Principalmente granívoro (semillas de alpiste, mijo, cáñamo), complementado con algunas hojas
+                        verdes y frutas.
+                        <br>
+                        <strong>Rol en la naturaleza:</strong>
+                        En su estado salvaje, funciona como dispersor de semillas de plantas herbáceas. Históricamente
+                        en la sociedad humana, sirvió como un indicador de seguridad biológica.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--* END - Modales-->
+
+    <!--* INICIO - footer-->
+    <div class="card text-center">
+        <div class="card-header">
+            Datos
+        </div>
+        <div class="card-body" id="footer">
+            <h5 class="card-title">Autor: </h5>
+            <p class="card-text">Diana S Garcia R</p>
+        </div>
+        <div class="card-footer text-body-secondary">
+            17/08/2026
+        </div>
+    </div>
+    <!--* END - footer-->
+
+    <!--* ============== STAR - Conexion Boostrap ============== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!--* ============ END - Conexion Boostrap =========== -->
+
+
+</body>
+
+</html>
