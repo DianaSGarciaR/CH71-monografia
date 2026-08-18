@@ -1,0 +1,42 @@
+body {
+    background: pink;
+}
+
+h1.h1format {
+    text-align: center;
+    justify-content: center;
+}
+
+.rowColor {
+    margin: 0px;
+    /** Elimina el margen predeterminado */
+    padding: 10px;
+    /**Espacio interno de la página */
+}
+
+strong {
+    display: block;
+}
+
+.card {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 200px;
+    /* Ancho fijo deseado */
+    height: 400px;
+    /* Alto fijo deseado */
+    object-fit: cover;
+    /* Evita la distorsión */
+    position: center;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgb(139, 17, 74);
+    color: white;
+    border-left: 10px solid rgb(85, 5, 36);
+}
